@@ -80,6 +80,11 @@ ul {
     margin: 0 auto;
 }
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .header {
     padding-top: 24px;
     padding-bottom: 32px;
@@ -96,6 +101,8 @@ ul {
 
 .preview {
     background-color: #2e2f42;
+    min-width: 1440px;
+    min-height: 600px;
 }
 
 .order-button {
@@ -106,6 +113,8 @@ ul {
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
+    display: block;
+    margin: 0 auto;
 }
 
 button:hover,
