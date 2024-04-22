@@ -20,6 +20,14 @@ ul {
     padding-left: 0;
 }
 
+.header-nav {
+    display: flex;
+}
+
+.header-container {
+    display: flex;
+}
+
 .logo {
     font-weight: 700;
     font-family: "Raleway", sans-serif;
@@ -28,6 +36,7 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-left: 156px;
 }
 
 .logo-part {
@@ -55,6 +64,19 @@ ul {
 .nav-link:hover,
 .nav-link:focus{
     color: #404bbf;
+}
+
+.links {
+    display: flex;
+    gap: 40px;
+    margin-left: 76px;
+}
+
+.contacts {
+    display: flex;
+    gap: 40px;
+    margin-right: 156px;
+    margin-left: 332px;
 }
 
 .address {
@@ -87,7 +109,7 @@ ul {
 
 .header {
     padding-top: 24px;
-    padding-bottom: 32px;
+    padding-bottom: 24px;
 }
 
 .site-title {
@@ -97,6 +119,8 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 496px;
+    margin: 0 auto;
 }
 
 .preview {
@@ -122,12 +146,22 @@ button:focus{
     background-color: #404bbf;
 }
 
+.content-list {
+    display: flex;
+    gap: 24px;
+}
+
+.hero-list {
+width: calc((100% - 3 * 24px) / 4);
+}
+
 .name-content {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .content {
     font-weight: 400;
@@ -149,10 +183,20 @@ button:focus{
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
 }
 
 .photo {
     background-color: #FFFFFF;
+}
+
+img {
+    display: block;
 }
 
 .person-name {
@@ -161,6 +205,8 @@ button:focus{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-top: 32px;
+    margin-bottom: 8px;
 }
 
 .person-profession {
@@ -169,6 +215,13 @@ button:focus{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-bottom: 32px;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
 }
 
 .portfolio-name {
@@ -177,6 +230,8 @@ button:focus{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-top: 32px;
+    margin-left: 16px;
 }
 
 .portfolio-class {
@@ -185,6 +240,9 @@ button:focus{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-top: 8px;
+    margin-bottom: 32px;
+    margin-left: 16px;
 }
 
 .bottom {
@@ -196,4 +254,6 @@ button:focus{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
+    margin-top: 16px;
 }
