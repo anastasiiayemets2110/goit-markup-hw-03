@@ -22,10 +22,14 @@ ul {
 
 .header-nav {
     display: flex;
+    align-items: center;
 }
 
 .header-container {
     display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
 }
 
 .logo {
@@ -59,6 +63,8 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
+    display: block;
 }
 
 .nav-link:hover,
@@ -197,6 +203,12 @@ width: calc((100% - 3 * 24px) / 4);
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.person-info {
+    text-align: center;
 }
 
 .person-name {
@@ -248,6 +260,12 @@ img {
 .bottom {
     background-color: #2e2f42;;
 }
+
+.logo-footer {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
 .conclusion {
     font-weight: 400;
     font-size: 16px;
