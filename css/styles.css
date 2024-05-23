@@ -25,18 +25,18 @@ ul {
     align-items: center;
 }
 
+.header{
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container {
     display: flex;
     max-width: 1440px;
     margin: 0 auto;
     align-items: center;
-    border-bottom: 1px solid #e7e9fc;
     padding: 0 15px 0 15px;
 }
 
-.hero-logo {
-    margin-right: 76px;
-}
 
 .logo {
     font-weight: 700;
@@ -46,6 +46,7 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .logo-part {
@@ -90,6 +91,7 @@ ul {
 
 .address {
     font-style: normal;
+    margin-left: auto;
 }
 
 .contact-link {
