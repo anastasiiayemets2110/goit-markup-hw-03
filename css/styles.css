@@ -109,6 +109,7 @@ ul {
 .container {
     width: 1158px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .section {
@@ -247,7 +248,6 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 
@@ -258,7 +258,6 @@ img {
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
-    margin-bottom: 32px;
 }
 
 .portfolio {
@@ -287,8 +286,6 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-top: 32px;
-    margin-left: 16px;
     margin-bottom: 8px;
 }
 
@@ -298,9 +295,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-top: 8px;
-    margin-bottom: 32px;
-    margin-left: 16px;
 }
 
 .bottom {
@@ -309,6 +303,14 @@ img {
 }
 
 .logo-footer {
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
     display: inline-block;
     margin-bottom: 16px;
 }
@@ -320,5 +322,4 @@ img {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
-    margin-top: 16px;
 }
